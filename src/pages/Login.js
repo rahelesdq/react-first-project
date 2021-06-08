@@ -24,7 +24,7 @@ const Login = () => {
       </Helmet>
       <Box
         sx={{
-          backgroundColor: 'pink',
+          backgroundColor: 'background.default',
           display: 'flex',
           flexDirection: 'column',
           height: '100%',
@@ -77,7 +77,7 @@ const Login = () => {
                   <Grid
                     item
                     xs={12}
-                    md={3}
+                    md={6}
                   >
                     <Button
                       color="primary"
@@ -93,7 +93,7 @@ const Login = () => {
                   <Grid
                     item
                     xs={12}
-                    md={3}
+                    md={6}
                   >
                     <Button
                       fullWidth
